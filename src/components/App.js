@@ -2,9 +2,8 @@ import React, { Component, useState } from "react";
 import "../styles/App.css";
 
 class App extends Component {
-  
+  relatives = ["a", "b", "c", "d"];
   render() {
-    let relatives = ["a", "b", "c", "d"];
     return (
       <>
         <ol key="relativeList">
